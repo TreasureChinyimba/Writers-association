@@ -1,0 +1,30 @@
+.app {
+  background-color: red;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  border-radius: 10px;
+  position: absolute;
+  left: 40%;
+  bottom: 20%;
+}
+
+input {
+  border: none;
+  font-size: 1.5em;
+  padding: 10px;
+  border-bottom: solid black;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+textarea {
+  border: none;
+  height: 300px;
+  width: 300px;
+}
