@@ -1,5 +1,5 @@
-// ProjectList.js
 import React from 'react';
+import '../App.css';
 
 const ProjectList = ({ projects, onCreateProject, onOpenProject, onDeleteProject }) => {
   return (

@@ -20,12 +20,12 @@ const Editor = ({ selectedProject, onSaveProject }) => {
   };
 
   return (
-    <div>
-      <h2>Editor</h2>
+    <div className='app'>
       {selectedProject && (
         <div>
           <input
             type="text"
+            placeholder='ENTER TITTLE'
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />

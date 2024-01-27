@@ -48,7 +48,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Lyrics Writing App</h1>
+      <h1>Writers Association</h1>
       <ProjectList
         projects={projects}
         onCreateProject={handleCreateProject}
